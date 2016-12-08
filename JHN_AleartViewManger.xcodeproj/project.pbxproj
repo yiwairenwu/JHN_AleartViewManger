@@ -16,6 +16,7 @@
 		CCDE37CF1DE6D35500F91F50 /* JHN_AleartViewMangerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE37CE1DE6D35500F91F50 /* JHN_AleartViewMangerTests.m */; };
 		CCDE37DA1DE6D35500F91F50 /* JHN_AleartViewMangerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE37D91DE6D35500F91F50 /* JHN_AleartViewMangerUITests.m */; };
 		CCFFCFCB1DF940E4004A27A6 /* JHNAleartViewManger.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFFCFCA1DF940E4004A27A6 /* JHNAleartViewManger.m */; };
+		CCFFCFCD1DF9573E004A27A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFFCFCC1DF9573E004A27A6 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		CCDE37DB1DE6D35500F91F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCFFCFC91DF940E4004A27A6 /* JHNAleartViewManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNAleartViewManger.h; sourceTree = "<group>"; };
 		CCFFCFCA1DF940E4004A27A6 /* JHNAleartViewManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNAleartViewManger.m; sourceTree = "<group>"; };
+		CCFFCFCC1DF9573E004A27A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFFCFCD1DF9573E004A27A6 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +87,7 @@
 		CCDE37A81DE6D35500F91F50 = {
 			isa = PBXGroup;
 			children = (
+				CCFFCFCC1DF9573E004A27A6 /* UIKit.framework */,
 				CCDE37B31DE6D35500F91F50 /* JHN_AleartViewManger */,
 				CCDE37CD1DE6D35500F91F50 /* JHN_AleartViewMangerTests */,
 				CCDE37D81DE6D35500F91F50 /* JHN_AleartViewMangerUITests */,
