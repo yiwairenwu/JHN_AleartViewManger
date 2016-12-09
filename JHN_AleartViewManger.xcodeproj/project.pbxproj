@@ -15,7 +15,7 @@
 		CCDE37C41DE6D35500F91F50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDE37C21DE6D35500F91F50 /* LaunchScreen.storyboard */; };
 		CCDE37CF1DE6D35500F91F50 /* JHN_AleartViewMangerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE37CE1DE6D35500F91F50 /* JHN_AleartViewMangerTests.m */; };
 		CCDE37DA1DE6D35500F91F50 /* JHN_AleartViewMangerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE37D91DE6D35500F91F50 /* JHN_AleartViewMangerUITests.m */; };
-		CCFFCFCB1DF940E4004A27A6 /* JHNAleartViewManger.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFFCFCA1DF940E4004A27A6 /* JHNAleartViewManger.m */; };
+		CCFFCFCB1DF940E4004A27A6 /* JHN_AleartViewManger.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFFCFCA1DF940E4004A27A6 /* JHN_AleartViewManger.m */; };
 		CCFFCFCD1DF9573E004A27A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFFCFCC1DF9573E004A27A6 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +53,8 @@
 		CCDE37D51DE6D35500F91F50 /* JHN_AleartViewMangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHN_AleartViewMangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDE37D91DE6D35500F91F50 /* JHN_AleartViewMangerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHN_AleartViewMangerUITests.m; sourceTree = "<group>"; };
 		CCDE37DB1DE6D35500F91F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCFFCFC91DF940E4004A27A6 /* JHNAleartViewManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNAleartViewManger.h; sourceTree = "<group>"; };
-		CCFFCFCA1DF940E4004A27A6 /* JHNAleartViewManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNAleartViewManger.m; sourceTree = "<group>"; };
+		CCFFCFC91DF940E4004A27A6 /* JHN_AleartViewManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHN_AleartViewManger.h; sourceTree = "<group>"; };
+		CCFFCFCA1DF940E4004A27A6 /* JHN_AleartViewManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHN_AleartViewManger.m; sourceTree = "<group>"; };
 		CCFFCFCC1DF9573E004A27A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -151,8 +151,8 @@
 		CCFFCFC81DF940E4004A27A6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CCFFCFC91DF940E4004A27A6 /* JHNAleartViewManger.h */,
-				CCFFCFCA1DF940E4004A27A6 /* JHNAleartViewManger.m */,
+				CCFFCFC91DF940E4004A27A6 /* JHN_AleartViewManger.h */,
+				CCFFCFCA1DF940E4004A27A6 /* JHN_AleartViewManger.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -289,7 +289,7 @@
 			files = (
 				CCDE37BC1DE6D35500F91F50 /* ViewController.m in Sources */,
 				CCDE37B91DE6D35500F91F50 /* AppDelegate.m in Sources */,
-				CCFFCFCB1DF940E4004A27A6 /* JHNAleartViewManger.m in Sources */,
+				CCFFCFCB1DF940E4004A27A6 /* JHN_AleartViewManger.m in Sources */,
 				CCDE37B61DE6D35500F91F50 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
