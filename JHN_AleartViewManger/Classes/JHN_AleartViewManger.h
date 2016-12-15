@@ -33,7 +33,6 @@ typedef void (^JHN_AleartViewAnimate) (UIView* aleartContentView);
 - (void)setAleartContentView:(UIView *)aleartContentView;
 //设置弹出窗口所在View 默认[[[UIApplication sharedApplication] windows] objectAtIndex:0]
 - (void)setParentView:(UIView *)parentView;
-- (void)setParentView:(UIView *)parentView behindSubView:(UIView *)subView;
 - (void)open;
 - (void)openWith:(JHN_AleartViewAnimateType)aleartViewAnimateType;
 - (void)close;

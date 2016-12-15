@@ -29,16 +29,17 @@
     } completion:^(UIView *aleartContentView) {
         NSLog(@"didClose");
     }];
+    [_manger setParentView:self.view];
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)oneAction:(UIButton *)sender {
-    [_manger setParentView:self.view];
+    
    
     [_manger openWith:JHN_AleartViewAnimationShowFrombelow];
     
 }
 - (IBAction)twoAction:(UIButton *)sender {
-    [_manger setParentView:self.view behindSubView:self.disView];
+
   
     [_manger open];
 }
